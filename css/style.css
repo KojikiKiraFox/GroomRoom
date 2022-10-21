@@ -361,6 +361,8 @@ template {
 html {
   font-family: LexendPeta;
   font-size: 16px;
+  background: #363636;
+  color: #fff;
 }
 
 ul,
@@ -370,7 +372,7 @@ a {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -397,6 +399,20 @@ a {
 .logo-text {
   font-size: 18px;
   margin-top: -10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  color: black;
+  border-radius: 5%;
+}
+
+.btn-login {
+  background: #9afc87;
+}
+
+.btn-reg {
+  background: #f57676;
 }
 
 input {
@@ -428,10 +444,6 @@ input[type="submit"] {
   transition: .3s;
 }
 
-.header {
-  background: #5E4222;
-}
-
 .header-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -444,71 +456,40 @@ input[type="submit"] {
           align-items: center;
 }
 
-.header-nav-items {
+.hero-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.header-nav-item:not(:last-child) {
-  margin-right: 15px;
-}
-
-.header-nav-link {
-  color: #cccccc;
-}
-
-.hero {
-  background: url(../img/hero/01.jpg) no-repeat center/cover;
-  color: #fff;
-  padding: 300px 0;
-}
-
-.hero-title {
-  font-size: 30px;
-}
-
-.hero-subtitle {
-  font-size: 21px;
-}
-
-.hero-items {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-}
-
-.footer {
-  background: #5E4222;
-}
-
-.footer a {
-  color: #cccccc;
-}
-
-.footer-items {
+.hero-item {
+  width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 25px;
 }
 
-.footer-nav-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.hero-item-img {
+  cursor: pointer;
+  margin-bottom: 15px;
 }
 
-.footer-nav-item:not(:last-child) {
-  margin-right: 15px;
+.hero-img {
+  max-width: 450px;
+  max-height: 320px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,16 +1,23 @@
 .hero{
-    background: url(../img/hero/01.jpg) no-repeat center / cover;
-    color: $white;
-    padding: 300px 0;
-    &-title{
-        font-size: 30px;
+    &-block{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    &-subtitle{
-        font-size: 21px;
+    &-item{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 25px;
+        &-img{
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
     }
-    &-items{
-        padding: 20px;
-        background: rgba($black, 0.6) ;
-        border-radius: 10px;
+    &-img{
+        max-width: 450px;
+        max-height: 320px;
     }
 }

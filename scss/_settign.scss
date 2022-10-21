@@ -17,7 +17,8 @@
 html {
     font-family: LexendPeta;
     font-size: 16px;
-    // background: #FFB273;
+    background: #363636;
+    color:#fff;
 }
 
 ul,
@@ -76,6 +77,18 @@ a {
         font-size: 18px;
         margin-top: -10px;
         
+    }
+}
+
+.btn{
+    padding: 5px 10px;
+    color:rgb(0, 0, 0);
+    border-radius:5%;
+    &-login{
+        background: rgb(154, 252, 135);
+    }
+    &-reg{
+        background: rgb(245, 118, 118);
     }
 }
 
