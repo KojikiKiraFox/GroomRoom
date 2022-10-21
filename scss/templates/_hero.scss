@@ -1,0 +1,16 @@
+.hero{
+    background: url(../img/hero/01.jpg) no-repeat center / cover;
+    color: $white;
+    padding: 300px 0;
+    &-title{
+        font-size: 30px;
+    }
+    &-subtitle{
+        font-size: 21px;
+    }
+    &-items{
+        padding: 20px;
+        background: rgba($black, 0.6) ;
+        border-radius: 10px;
+    }
+}

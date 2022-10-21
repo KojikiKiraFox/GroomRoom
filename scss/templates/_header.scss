@@ -1,0 +1,22 @@
+.header{
+    background: $gov;
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-nav{
+        &-items{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-item{
+            &:not(:last-child){
+                margin-right: 15px;
+            }
+        }
+        &-link{
+            color: $whiteGray;
+        }
+    }
+}

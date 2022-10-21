@@ -1,0 +1,22 @@
+.footer{
+    background: $gov;
+    a{
+        color: $whiteGray;
+    }
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+    }
+    &-nav{
+        &-items{
+            display: flex;
+        }
+        &-item{
+            &:not(:last-child){
+                margin-right: 15px;
+            }
+        }
+    }
+}
