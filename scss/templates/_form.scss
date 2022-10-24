@@ -1,0 +1,41 @@
+.form{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    &-btn{
+        border:none;
+        cursor: pointer;
+    }
+    &-pol{
+        margin-bottom: 10px;
+        &-link{
+            color:#fff;
+            font-weight: 700;
+            font-style: italic;
+        }
+    }
+    &-title{
+        margin-bottom: 25px;
+    }
+}
+.where{
+    &-form{
+        &__input{
+            max-width: 350px;
+            padding: 15px 10px;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        &__half{
+            padding: 15px 20px;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
